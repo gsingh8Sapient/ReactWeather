@@ -11,7 +11,11 @@ var React = require('react');
 // Creating stateless presentational component
 var About = (props) => {
     return (
-            <h3>About Components</h3>
+        <div>
+            <h3>About</h3>
+            <p>Welcome to About</p>
+        </div>
+            
         )
 }
 
